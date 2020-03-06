@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>BluCollr</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="images/favicon.ico" type="image/x-icon" rel="icon" />
+  <link rel="stylesheet" href="plugins/bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" href="plugins/font-awesome/css/all.css">
+  <link rel="stylesheet" href="plugins/owl-carousel/css/owl.carousel.min.css">
+  <link rel="stylesheet" href="plugins/select2/css/select2.min.css">
+  <link rel="stylesheet" href="css/customscrollbar.css">
+  <link href="css/style.css" rel="stylesheet" type="text/css">
+  <link href="css/custom-designer.css" rel="stylesheet" type="text/css">
+  <link href="css/custom-developer.css" rel="stylesheet" type="text/css">
+  <link href="css/media.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+  <div id="main-container" class="main-container">
+    <div id="inner-container" class="inner-container">
+      <!-- Header Start -->
+      <header id="header" class="fixed-top after-login">
+        <div class="container">
+          <div class="head-blk">
+            <div class="header-top">
+              <div class="row">
+                <div class="col-lg-2">
+                  <div class="head-logo"> <a href="#"><img src="images/logo-sm.png"></a> </div>
+                </div>
+                <div class="col-lg-7">
+                  <div class="srch-area"> <span class="icon-search"></span>
+                    <input type="text" placeholder="Search">
+                  </div>
+                </div>
+                <div class="col-lg-3 PL0">
+                  <div class="hdr-rt">
+                    <div class="icon-row">
+                      <a href="#"><span class="icon-user"></span></a>
+                      <a href="#"><span class="icon-message">
+                        <small>3</small>
+                      </span></a>
+                      <a href="#"><span class="icon-bell">
+                        <small>4</small>
+                      </span></a>
+                    </div>
+                    <div class="prof-dropdown">
+                      <a href="#" class="dropdown-toggle" id="dropdownMenuButton" data-toggle="dropdown"><img src="images/testimonial-img/pro-pic1.jpg"></a>
+                      <div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownMenuButton">
+                        <a class="dropdown-item" href="#">Account Setting</a>
+                        <a class="dropdown-item" href="#">Review Recived</a>
+                        <a class="dropdown-item" href="#">Help</a>
+                        <a class="dropdown-item" href="#">Logout</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="inner-nav-sec">
+                <nav class="inner-nav">
+                  <ul>
+                    <li><a href="#">Dashboard</a></li>
+                    <li><a href="#">My Jobs</a></li>
+                    <li><a href="#">My Connections </a></li>
+                    <li  class="active"><a href="profileupdate.html">My Profile </a></li>
+                    <li><a href="#"> Transactions </a></li>
+                    <li><a href="#"> Newsfeed </a></li>
+                  </ul>
+                </nav>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+      <!-- /header End-->
+
+      <main class="middle-sec">
+        <div class="stc-page post-job-section">
+          <div class="container">
+            <div class="post-job-section">
+              <div class="post-steps">
+                <div id="steps-1" class="cmn-step">
+                  <div class="cmn-form">
+                    <div class="form-group">
+                      <h4>What can we help you with today?</h4>
+                      <select multiple>
+                        <option value="AL">Alabama</option>
+                        <option value="Am">Amalapuram</option>
+                        <option value="An">Anakapalli</option>
+                        <option value="Ak">Akkayapalem</option>
+                        <option value="WY">Wyoming</option>
+                      </select>
+                    </div>
+                    <div class="form-group">
+                      <h4>What skill set required for Job?</h4>
+                      <select multiple>
+                        <option value="AL">Alabama</option>
+                        <option value="Am">Amalapuram</option>
+                        <option value="An">Anakapalli</option>
+                        <option value="Ak">Akkayapalem</option>
+                        <option value="WY">Wyoming</option>
+                      </select>
+                    </div>
+                  </div>
+                  <div class="text-center">
+                    <a href="#" id="step-n1" class="cmn-btn">Next</a>
+                  </div>
+                </div>
+                <div id="steps-2" class="cmn-step" style="display: none;">
+                  <div>
+                    <h4>Tell us about your location and problem</h4>
+                    <div class="cmn-form">
+                      <div class="form-group">
+                        <label class="title">Address</label>
+                        <textarea class="form-control cmn-txtarea" rows="3"></textarea>
+                      </div>
+                      <div class="form-group">
+                        <label class="title">City</label>
+                        <select>
+                            <option value="AL">Alabama</option>
+                            <option value="Am">Amalapuram</option>
+                            <option value="An">Anakapalli</option>
+                            <option value="Ak">Akkayapalem</option>
+                            <option value="WY">Wyoming</option>
+                        </select>
+                      </div>
+                      <div class="form-group">
+                        <label class="title">Job Title</label>
+                        <input type="text" class="form-control" placeholder="Enter Job Title">
+                      </div>
+                      <div class="form-group">
+                        <label class="title">Job Description</label>
+                        <img src="images/editor-img.png" alt="" class="img-fluid">
+                      </div>
+                    </div>
+                  </div>
+                  <div class="text-center">
+                    <a href="#" id="step-b1" class="cmn-btn cnx-btn">Back</a>
+                    <a href="#" id="step-n2" class="cmn-btn">Next</a>
+                  </div>
+                </div>
+                <div id="steps-3" class="cmn-step" style="display: none;">
+                  <div>
+                    <h4>Other Information</h4>
+                    <div class="cmn-form">
+                      <div class="form-group">
+                        <label class="title">Disqualifiers</label>
+                        <div class="row">
+                          <div class="col-lg-6">
+                            <div class="custom-control custom-checkbox">
+                              <input type="checkbox" class="custom-control-input" id="customCheck1">
+                              <label class="custom-control-label" for="customCheck1">Checkbox label</label>
+                            </div>
+                          </div>
+                          <div class="col-lg-6">
+                            <div class="custom-control custom-checkbox">
+                              <input type="checkbox" class="custom-control-input" id="customCheck2">
+                              <label class="custom-control-label" for="customCheck2">New York</label>
+                            </div>
+                          </div>
+                          <div class="col-lg-6">
+                            <div class="custom-control custom-checkbox">
+                              <input type="checkbox" class="custom-control-input" id="customCheck3">
+                              <label class="custom-control-label" for="customCheck3">Checkbox label</label>
+                            </div>
+                          </div>
+                          <div class="col-lg-6">
+                            <div class="custom-control custom-checkbox">
+                              <input type="checkbox" class="custom-control-input" id="customCheck4">
+                              <label class="custom-control-label" for="customCheck4">New York</label>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="form-group">
+                        <label class="title">Former BluCollr Employee?</label>
+                        <div class="custom-control custom-radio custom-control-inline">
+                          <input type="radio" class="custom-control-input" id="customRadio" name="example1" value="customEx" checked>
+                          <label class="custom-control-label" for="customRadio">Yes</label>
+                        </div>
+                        <div class="custom-control custom-radio custom-control-inline">
+                          <input type="radio" class="custom-control-input" id="customRadio1" name="example1" value="customEx">
+                          <label class="custom-control-label" for="customRadio1">No</label>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="text-center">
+                    <a href="#" id="step-b2" class="cmn-btn cnx-btn">Back</a>
+                    <a href="#" id="step-n3" class="cmn-btn">Next</a>
+                  </div>
+                </div>
+                <div id="steps-4" class="cmn-step employer-work" style="display: none;">
+                  <div>
+                    <h4>Select who you want to work with.</h4>
+                    <div class="row align-items-center mb-2">
+                      <div class="col-lg-4">
+                        <div class="custom-control custom-checkbox">
+                          <input type="checkbox" class="custom-control-input" id="customCheck5">
+                          <label class="custom-control-label" for="customCheck5">Select All Employer</label>
+                        </div>
+                      </div>
+                      <div class="col-lg-8">
+                        <div class="form-group">
+                          <span class="icon-search"></span>
+                          <input type="text" class="form-control" placeholder="Search tutors here (autosuggest by Employer Name)">
+                        </div>
+                      </div>
+                    </div>
+                    <div class="comment-row mCustomScrollbar">
+                      <ul>
+                        <li>
+                          <div class="comment-btm-sec">
+                            <div class="comment-img-sec">
+                              <img src="images/testimonial-img/pro-pic1.jpg">
+                            </div>
+                            <div class="comment-data-sec">
+                              <h3><a href="#">Alex Smith</a></h3>
+                              <em>12 Jan 2019</em>
+                              <i><img src="images/star-rating.png"></i>                                
+                              <span>Category 1, Category 2</span>
+                              <address>Address: Greater New York</address>
+                              <p>The service was excellent and I am overwhelmed by the output! Lorem ipsum dummy text.</p>
+                              <div class="hired d-flex justify-content-between align-items-center">
+                                <div class="hired-time">Hired 91 times on BluCollr</div>
+                                <div>
+                                  <a href="#" class="hired-connect">Connect with Michael K</a>
+                                  <a href="#" class="apply-btn">Invite for Job</a>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </li>
+                        <li>
+                          <div class="comment-btm-sec">
+                            <div class="comment-img-sec">
+                              <img src="images/testimonial-img/pro-pic1.jpg">
+                            </div>
+                            <div class="comment-data-sec">
+                              <h3><a href="#">Alex Smith</a></h3>
+                              <em>12 Jan 2019</em>
+                              <i><img src="images/star-rating.png"></i>                                
+                              <span>Category 1, Category 2</span>
+                              <address>Address: Greater New York</address>
+                              <p>The service was excellent and I am overwhelmed by the output! Lorem ipsum dummy text.</p>
+                              <div class="hired d-flex justify-content-between align-items-center">
+                                <div class="hired-time">Hired 91 times on BluCollr</div>
+                                <div>
+                                  <a href="#" class="hired-connect">Connect with Michael K</a>
+                                  <a href="#" class="apply-btn">Invite for Job</a>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </li> 
+                        <li>
+                          <div class="comment-btm-sec">
+                            <div class="comment-img-sec">
+                              <img src="images/testimonial-img/pro-pic1.jpg">
+                            </div>
+                            <div class="comment-data-sec">
+                              <h3><a href="#">Alex Smith</a></h3>
+                              <em>12 Jan 2019</em>
+                              <i><img src="images/star-rating.png"></i>                                
+                              <span>Category 1, Category 2</span>
+                              <address>Address: Greater New York</address>
+                              <p>The service was excellent and I am overwhelmed by the output! Lorem ipsum dummy text.</p>
+                              <div class="hired d-flex justify-content-between align-items-center">
+                                <div class="hired-time">Hired 91 times on BluCollr</div>
+                                <div>
+                                  <a href="#" class="hired-connect">Connect with Michael K</a>
+                                  <a href="#" class="apply-btn">Invite for Job</a>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </li> 
+                        <li>
+                          <div class="comment-btm-sec">
+                            <div class="comment-img-sec">
+                              <img src="images/testimonial-img/pro-pic1.jpg">
+                            </div>
+                            <div class="comment-data-sec">
+                              <h3><a href="#">Alex Smith</a></h3>
+                              <em>12 Jan 2019</em>
+                              <i><img src="images/star-rating.png"></i>                                
+                              <span>Category 1, Category 2</span>
+                              <address>Address: Greater New York</address>
+                              <p>The service was excellent and I am overwhelmed by the output! Lorem ipsum dummy text.</p>
+                              <div class="hired d-flex justify-content-between align-items-center">
+                                <div class="hired-time">Hired 91 times on BluCollr</div>
+                                <div>
+                                  <a href="#" class="hired-connect">Connect with Michael K</a>
+                                  <a href="#" class="apply-btn">Invite for Job</a>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </li> 
+                        <li>
+                          <div class="comment-btm-sec">
+                            <div class="comment-img-sec">
+                              <img src="images/testimonial-img/pro-pic1.jpg">
+                            </div>
+                            <div class="comment-data-sec">
+                              <h3><a href="#">Alex Smith</a></h3>
+                              <em>12 Jan 2019</em>
+                              <i><img src="images/star-rating.png"></i>                                
+                              <span>Category 1, Category 2</span>
+                              <address>Address: Greater New York</address>
+                              <p>The service was excellent and I am overwhelmed by the output! Lorem ipsum dummy text.</p>
+                              <div class="hired d-flex justify-content-between align-items-center">
+                                <div class="hired-time">Hired 91 times on BluCollr</div>
+                                <div>
+                                  <a href="#" class="hired-connect">Connect with Michael K</a>
+                                  <a href="#" class="apply-btn">Invite for Job</a>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </li>  
+                      </ul>  
+                    </div>  
+                  </div>
+                  <div class="text-center">
+                    <a href="#" id="step-b3" class="cmn-btn cnx-btn">Back</a>
+                    <a href="#" id="step-n5" class="cmn-btn">Submit</a>
+                  </div>
+                </div>
+               <!--  <div id="steps-5" class="cmn-step " style="display: none;">
+                  <div>5</div>
+                  <div class="text-center">
+                    <a href="#" id="step-b4" class="cmn-btn cnx-btn">Back</a>
+                    <a href="#" id="step-n5" class="cmn-btn">Submit</a>
+                  </div>
+                </div> -->
+              </div>
+              <div>
+                
+              </div>
+            </div>
+          </div>
+        </div>
+      </main>
+    </div>
+    <!-- Footer Start -->
+    <footer id="footer">
+      <div class="container">
+        <div class="footer-link">
+          <div class="row">
+            <div class="col-lg-2">
+              <ul>
+                <li class="title">Company</li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Terms & Conditions</a></li>
+                <li><a href="#">Privacy Policy</a></li>
+              </ul>
+            </div>
+            <div class="col-lg-2">
+              <ul>
+                <li class="title">Support</li>
+                <li><a href="#">Help Center</a></li>
+                <li><a href="#">Contact Us</a></li>
+              </ul>
+            </div>
+            <div class="col-lg-2">
+              <ul>
+                <li class="title">Business</li>
+                <li><a href="#">Advertise with Us</a></li>
+              </ul>
+            </div>
+            <div class="col-lg-2">
+              <ul>
+                <li class="title">BluCollr Employee</li>
+                <li><a href="#">How it Works?</a></li>
+                <li><a href="#">Employee Testimonials</a></li>
+              </ul>
+            </div>
+            <div class="col-lg-2">
+              <ul>
+                <li class="title">BluCollr Employer</li>
+                <li><a href="#">How it Works?</a></li>
+                <li><a href="#">Employer Testimonials</a></li>
+              </ul>
+            </div>
+            <div class="col-lg-2">
+              <ul>
+                <li class="title">Get Social</li>              
+              </ul>
+              <div class="social-icn">
+                <a href="#" class="icon-fb-ic"></a>
+                <a href="#" class="icon-tw-ic"></a>
+                <a href="#" class="icon-insta-ic"></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="copyright text-center">
+          <img src="images/black-logo.png" alt="">
+          <p>© 2019 Copyright Blucollr.com. All Rights Reserved.</p>
+        </div>
+      </div>
+    </footer>
+    <!-- Footer End -->
+  </div>
+  <!-- JS Start -->
+  <script src="js/jquery.min.js"></script> 
+  <script src="plugins/bootstrap/js/popper.min.js"></script> 
+  <script src="plugins/bootstrap/js/bootstrap.min.js"></script> 
+  <script src="plugins/owl-carousel/js/owl.carousel.js"></script>
+  <script src="plugins/select2/js/select2.full.min.js"></script> 
+  <script src="js/customscrollbar.min.js"></script>  
+  <script src="js/custom-designer.js"></script> 
+  <script src="js/custom-developer.js"></script>
+  <!-- JS end -->
+
+</body>
+</html>

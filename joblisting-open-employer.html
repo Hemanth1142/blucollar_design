@@ -1,0 +1,844 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>BluCollr</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="images/favicon.ico" type="image/x-icon" rel="icon" />
+  <link rel="stylesheet" href="plugins/bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" href="plugins/font-awesome/css/all.min.css">
+  <link href="/your-path-to-fontawesome/css/all.css" rel="stylesheet">
+  <!--load all styles -->
+  <link rel="stylesheet" href="plugins/owl-carousel/css/owl.carousel.min.css">
+  <link rel="stylesheet" href="plugins/select2/css/select2.min.css">
+  <link href="css/style.css" rel="stylesheet" type="text/css">
+  <link href="css/custom-designer.css" rel="stylesheet" type="text/css">
+  <link href="css/custom-developer.css" rel="stylesheet" type="text/css">
+  <link href="css/media.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+  <div id="main-container" class="main-container">
+    <div id="inner-container" class="inner-container">
+      <!-- Header Start -->
+      <header id="header" class="fixed-top after-login">
+        <div class="container">
+          <div class="head-blk">
+            <div class="header-top">
+              <div class="row">
+                <div class="col-lg-2">
+                  <div class="head-logo"> <a href="#"><img src="images/logo-sm.png"></a> </div>
+                </div>
+                <div class="col-lg-7">
+                  <div class="srch-area"> <span class="icon-search"></span>
+                    <input type="text" placeholder="Search">
+                  </div>
+                </div>
+                <div class="col-lg-3 PL0">
+                  <div class="hdr-rt">
+                    <div class="icon-row">
+                      <a href="#"><span class="icon-user"></span></a>
+                      <a href="#">
+                        <span class="icon-message"><small>3</small></span>
+                      </a>
+                      <a href="#">
+                        <span class="icon-bell"><small>4</small></span>
+                      </a>
+                    </div>
+                    <div class="prof-dropdown">
+                      <a href="#"><img src="images/testimonial-img/pro-pic1.jpg"></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="inner-nav-sec">
+                <nav class="inner-nav">
+                  <ul>
+                    <li><a href="#">Dashboard</a></li>
+                    <li><a href="#">My Jobs</a></li>
+                    <li><a href="#">My Connections </a></li>
+                    <li  class="active"><a href="profileupdate.html">My Profile </a></li>
+                    <li><a href="#"> Transactions </a></li>
+                    <li><a href="#"> Newsfeed </a></li>
+                  </ul>
+                </nav>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+      <!-- /header End-->
+
+      <main class="middle-sec">
+        <div class="prof-sec">
+          <div class="container">
+            <div class="main-tabs">
+              <div class="nav nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+                <a class="cmn-tab active" id="v-pills-home-tab" data-toggle="pill" href="#v-pills-home" role="tab" aria-controls="v-pills-home" aria-selected="true">Open Jobs</a>
+                <a class="cmn-tab" id="v-pills-profile-tab" data-toggle="pill" href="#v-pills-profile" role="tab" aria-controls="v-pills-profile" aria-selected="false">Inprogress Jobs</a>
+                <a class="cmn-tab" id="v-pills-messages-tab" data-toggle="pill" href="#v-pills-messages" role="tab" aria-controls="v-pills-messages" aria-selected="false">Completed Jobs</a>
+                <a class="cmn-tab" id="v-pills-promotedjobs-tab" data-toggle="pill" href="#v-pills-promotedjobs" role="tab" aria-controls="v-pills-messages" aria-selected="false">Promoted Jobs</a>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-lg-3 pr-0 left-section">
+                <div class="filter-block">
+                  <div class="heading-title">
+                    <h2>Filter</h2>
+                    <div class="refresh-icon">
+                      <a href="#"><img src="images/refresh-icon.png" alt=""></a>
+                    </div>
+                  </div>
+                  <div class="widget">
+                    <div>
+                      <a class="title" data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+                        Cities
+                      </a>
+                      <div class="collapse show" id="collapseExample">
+                        <div class="form-group">
+                          <span class="icon-search"></span>
+                          <input type="text" class="form-control" placeholder="Search Here (Autosuggest by City)">
+                        </div>
+                        <div class="filter-chack-list">
+                          <div class="custom-control custom-checkbox right-checkbox">
+                            <input type="checkbox" class="custom-control-input" id="customCheck1">
+                            <label class="custom-control-label" for="customCheck1">New York</label>
+                          </div>
+                          <div class="custom-control custom-checkbox right-checkbox">
+                            <input type="checkbox" class="custom-control-input" id="customCheck2">
+                            <label class="custom-control-label" for="customCheck2">Los Angeles</label>
+                          </div>
+                          <div class="custom-control custom-checkbox right-checkbox">
+                            <input type="checkbox" class="custom-control-input" id="customCheck3">
+                            <label class="custom-control-label" for="customCheck3">Chicago</label>
+                          </div>
+                          <div class="custom-control custom-checkbox right-checkbox">
+                            <input type="checkbox" class="custom-control-input" id="customCheck4">
+                            <label class="custom-control-label" for="customCheck4">Phoenix</label>
+                          </div>
+                          <div class="custom-control custom-checkbox right-checkbox">
+                            <input type="checkbox" class="custom-control-input" id="customCheck5">
+                            <label class="custom-control-label" for="customCheck5">Philadelphia</label>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="widget">
+                    <div>
+                      <a class="title" data-toggle="collapse" href="#collapseExample1" role="button" aria-expanded="false" aria-controls="collapseExample">
+                        Category
+                      </a>
+                      <div class="collapse show" id="collapseExample1">
+                        <div class="form-group">
+                          <span class="icon-search"></span>
+                          <input type="text" class="form-control" placeholder="Search Here (Autosuggest by Category)">
+                        </div>
+                        <div class="filter-chack-list">
+                          <div class="custom-control custom-checkbox right-checkbox">
+                            <input type="checkbox" class="custom-control-input" id="customCheck6">
+                            <label class="custom-control-label" for="customCheck6">Agriculture & Forestry</label>
+                          </div>
+                          <div class="custom-control custom-checkbox right-checkbox">
+                            <input type="checkbox" class="custom-control-input" id="customCheck7">
+                            <label class="custom-control-label" for="customCheck7">Construction</label>
+                          </div>
+                          <div class="custom-control custom-checkbox right-checkbox">
+                            <input type="checkbox" class="custom-control-input" id="customCheck8">
+                            <label class="custom-control-label" for="customCheck8">Food & Beverage</label>
+                          </div>
+                          <div class="custom-control custom-checkbox right-checkbox">
+                            <input type="checkbox" class="custom-control-input" id="customCheck9">
+                            <label class="custom-control-label" for="customCheck9">Manufacturing</label>
+                          </div>
+                          <div class="custom-control custom-checkbox right-checkbox">
+                            <input type="checkbox" class="custom-control-input" id="customCheck10">
+                            <label class="custom-control-label" for="customCheck10">Mining</label>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="widget gray-bg">
+                    <div>
+                      <a class="title" data-toggle="collapse" href="#collapseExample2" role="button" aria-expanded="false" aria-controls="collapseExample">
+                        Hourly Rates
+                      </a>
+                      <div class="collapse show" id="collapseExample2">
+                        <img src="images/price-filter-img.png" alt="">
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-9 pl-0 right-section">
+                <div class="tab-content" id="v-pills-tabContent">
+                  <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab">
+                    <div class="right-header">
+                      <div class="">
+                        <a href="#" class="apply-btn">Post Jobs</a>
+                      </div>
+                      <div class="d-flex">
+                        <div class="apply-cald">
+                          <label>Form Date:</label>
+                          <input type="text" class="form-control" value="MM/DD/YYYY">
+                          <span class="icon-calendar-ic"></span>
+                        </div>
+                        <div class="apply-cald">
+                          <label>To Date:</label>
+                          <input type="text" class="form-control" value="MM/DD/YYYY">
+                          <span class="icon-calendar-ic"></span>
+                        </div>
+                        <div>
+                            <a href="#" class="cmn-btn">Save</a>
+                            <a href="#" class="cmn-btn cnx-btn">cancel</a>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="job-list right-inner">
+                      <h2 class="heading"><strong>08</strong> Jobs & Vacancies</h2>
+                      <div class="listing-sec">
+                        <div class="list-blk">
+                          <div class="logo">
+                            <i><img src="images/job-1.png"></i>
+                          </div>
+                          <div class="list-detail">
+                            <div class="list-lt">
+                              <h2><strong>Looking for Carpenter</strong><span>Greater New York</span></h2>
+                              <h4>Framing</h4>
+                              <p><span>12 April 19</span>  <span>By <em>James C.</em></span></p>
+                            </div>
+                            <div class="list-rt">
+                              <a href="#" class="apply-btn">Promote This Job</a>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="list-blk">
+                          <div class="logo">
+                            <i><img src="images/job-2.png"></i>
+                          </div>
+                          <div class="list-detail">
+                            <div class="list-lt">
+                              <h2><strong>Looking for Carpenter</strong>   <span>San Jose</span></h2>
+                              <h4>Framing</h4>
+                              <p><span>12 April 19</span>  <span>By <em>James C.</em></span></p>
+                            </div>
+                            <div class="list-rt">
+                              <a href="#" class="apply-btn">Promote This Job</a>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="list-blk">
+                          <div class="logo">
+                            <i><img src="images/job-3.png"></i>
+                          </div>
+                          <div class="list-detail">
+                            <div class="list-lt">
+                              <h2><strong>Looking for Carpenter</strong><span>Austin</span></h2>
+                              <h4>Framing</h4>
+                              <p><span>12 April 19</span><span>By <em>James C.</em></span></p>
+                            </div>
+                            <div class="list-rt">
+                              <a href="#" class="apply-btn">Promote This Job</a>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="list-blk">
+                          <div class="logo">
+                            <i><img src="images/job-4.png"></i>
+                          </div>
+                          <div class="list-detail">
+                            <div class="list-lt">
+                              <h2><strong>Looking for Carpenter</strong>   <span>Chicago</span></h2>
+                              <h4>Framing</h4>
+                              <p><span>12 April 19</span>  <span>By <em>James C.</em></span></p>
+                            </div>
+                            <div class="list-rt">
+                              <a href="#" class="apply-btn">Promote This Job</a>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="list-blk">
+                          <div class="logo">
+                            <i><img src="images/job-5.png"></i>
+                          </div>
+                          <div class="list-detail">
+                            <div class="list-lt">
+                              <h2><strong>Looking for Carpenter</strong>   <span>New York</span></h2>
+                              <h4>Framing</h4>
+                              <p><span>12 April 19</span>  <span>By <em>James C.</em></span></p>
+                            </div>
+                            <div class="list-rt">
+                              <a href="#" class="apply-btn">Promote This Job</a>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="list-blk">
+                          <div class="logo">
+                            <i><img src="images/job-6.png"></i>
+                          </div>
+                          <div class="list-detail">
+                            <div class="list-lt">
+                              <h2><strong>Looking for Carpenter</strong>   <span>Los Angles</span></h2>
+                              <h4>Framing</h4>
+                              <p><span>12 April 19</span>  <span>By <em>James C.</em></span></p>
+                            </div>
+                            <div class="list-rt">
+                              <a href="#" class="apply-btn">Promote This Job</a>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="list-blk">
+                          <div class="logo">
+                            <i><img src="images/job-7.png"></i>
+                          </div>
+                          <div class="list-detail">
+                            <div class="list-lt">
+                              <h2><strong>Looking for Carpenter</strong>   <span>Greter Newyork</span></h2>
+                              <h4>Framing</h4>
+                              <p><span>12 April 19</span>  <span>By <em>James C.</em></span></p>
+                            </div>
+                            <div class="list-rt">
+                              <a href="#" class="apply-btn">Promote This Job</a>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="list-blk">
+                          <div class="logo">
+                            <i><img src="images/job-8.png"></i>
+                          </div>
+                          <div class="list-detail">
+                            <div class="list-lt">
+                              <h2><strong>Looking for Carpenter</strong>   <span>Greter Newyork</span></h2>
+                              <h4>Framing</h4>
+                              <p><span>12 April 19</span>  <span>By <em>James C.</em></span></p>
+                            </div>
+                            <div class="list-rt">
+                              <a href="#" class="apply-btn">Promote This Job</a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab">
+                    <div class="right-header">
+                      <div class="">
+                        <a href="#" class="apply-btn">Post Jobs</a>
+                      </div>
+                      <div class="d-flex">
+                        <div class="apply-cald">
+                          <label>Form Date:</label>
+                          <input type="text" class="form-control" value="MM/DD/YYYY">
+                          <span class="icon-calendar-ic"></span>
+                        </div>
+                        <div class="apply-cald">
+                          <label>To Date:</label>
+                          <input type="text" class="form-control" value="MM/DD/YYYY">
+                          <span class="icon-calendar-ic"></span>
+                        </div>
+                        <div>
+                            <a href="#" class="cmn-btn">Save</a>
+                            <a href="#" class="cmn-btn cnx-btn">cancel</a>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="job-list right-inner">
+                      <h2 class="heading"><strong>08</strong> Jobs & Vacancies</h2>
+                      <div class="listing-sec">
+                        <div class="list-blk">
+                          <div class="logo">
+                            <i><img src="images/job-1.png"></i>
+                          </div>
+                          <div class="list-detail">
+                            <div class="list-lt">
+                              <h2><strong>Looking for Carpenter</strong>   <span>Greater New York</span></h2>
+                              <h4>Framing</h4>
+                              <p><span>12 April 19</span>  <span>By <em>James C.</em></span></p>
+                            </div>
+                            <div class="list-rt">
+                              <a href="#" class="apply-btn">Complete</a>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="list-blk">
+                          <div class="logo">
+                            <i><img src="images/job-2.png"></i>
+                          </div>
+                          <div class="list-detail">
+                            <div class="list-lt">
+                              <h2><strong>Looking for Carpenter</strong>   <span>San Jose</span></h2>
+                              <h4>Framing</h4>
+                              <p><span>12 April 19</span>  <span>By <em>James C.</em></span></p>
+                            </div>
+                            <div class="list-rt">
+                              <a href="#" class="apply-btn">Complete</a>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="list-blk">
+                          <div class="logo">
+                            <i><img src="images/job-3.png"></i>
+                          </div>
+                          <div class="list-detail">
+                            <div class="list-lt">
+                              <h2><strong>Looking for Carpenter</strong><span>Austin</span></h2>
+                              <h4>Framing</h4>
+                              <p><span>12 April 19</span><span>By <em>James C.</em></span></p>
+                            </div>
+                            <div class="list-rt">
+                              <a href="#" class="apply-btn">Complete</a>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="list-blk">
+                          <div class="logo">
+                            <i><img src="images/job-4.png"></i>
+                          </div>
+                          <div class="list-detail">
+                            <div class="list-lt">
+                              <h2><strong>Looking for Carpenter</strong>   <span>Chicago</span></h2>
+                              <h4>Framing</h4>
+                              <p><span>12 April 19</span>  <span>By <em>James C.</em></span></p>
+                            </div>
+                            <div class="list-rt">
+                              <a href="#" class="apply-btn">Complete</a>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="list-blk">
+                          <div class="logo">
+                            <i><img src="images/job-5.png"></i>
+                          </div>
+                          <div class="list-detail">
+                            <div class="list-lt">
+                              <h2><strong>Looking for Carpenter</strong>   <span>New York</span></h2>
+                              <h4>Framing</h4>
+                              <p><span>12 April 19</span>  <span>By <em>James C.</em></span></p>
+                            </div>
+                            <div class="list-rt">
+                              <a href="#" class="apply-btn">Complete</a>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="list-blk">
+                          <div class="logo">
+                            <i><img src="images/job-6.png"></i>
+                          </div>
+                          <div class="list-detail">
+                            <div class="list-lt">
+                              <h2><strong>Looking for Carpenter</strong>   <span>Los Angles</span></h2>
+                              <h4>Framing</h4>
+                              <p><span>12 April 19</span>  <span>By <em>James C.</em></span></p>
+                            </div>
+                            <div class="list-rt">
+                              <a href="#" class="apply-btn">Complete</a>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="list-blk">
+                          <div class="logo">
+                            <i><img src="images/job-7.png"></i>
+                          </div>
+                          <div class="list-detail">
+                            <div class="list-lt">
+                              <h2><strong>Looking for Carpenter</strong>   <span>Greter Newyork</span></h2>
+                              <h4>Framing</h4>
+                              <p><span>12 April 19</span>  <span>By <em>James C.</em></span></p>
+                            </div>
+                            <div class="list-rt">
+                              <a href="#" class="apply-btn">Complete</a>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="list-blk">
+                          <div class="logo">
+                            <i><img src="images/job-8.png"></i>
+                          </div>
+                          <div class="list-detail">
+                            <div class="list-lt">
+                              <h2><strong>Looking for Carpenter</strong>   <span>Greter Newyork</span></h2>
+                              <h4>Framing</h4>
+                              <p><span>12 April 19</span>  <span>By <em>James C.</em></span></p>
+                            </div>
+                            <div class="list-rt">
+                              <a href="#" class="apply-btn">Complete</a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="tab-pane fade" id="v-pills-messages" role="tabpanel" aria-labelledby="v-pills-messages-tab">
+                    <div class="right-header">
+                      <div class="">
+                        <a href="#" class="apply-btn">Post Jobs</a>
+                      </div>
+                      <div class="d-flex">
+                        <div class="apply-cald">
+                          <label>Form Date:</label>
+                          <input type="text" class="form-control" value="MM/DD/YYYY">
+                          <span class="icon-calendar-ic"></span>
+                        </div>
+                        <div class="apply-cald">
+                          <label>To Date:</label>
+                          <input type="text" class="form-control" value="MM/DD/YYYY">
+                          <span class="icon-calendar-ic"></span>
+                        </div>
+                        <div>
+                            <a href="#" class="cmn-btn">Save</a>
+                            <a href="#" class="cmn-btn cnx-btn">cancel</a>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="job-list right-inner">
+                      <h2 class="heading"><strong>08</strong> Jobs & Vacancies</h2>
+                      <div class="listing-sec">
+                        <div class="list-blk">
+                          <div class="logo">
+                            <i><img src="images/job-1.png"></i>
+                          </div>
+                          <div class="list-detail">
+                            <div class="list-lt">
+                              <h2><strong>Looking for Carpenter</strong>   <span>Greater New York</span></h2>
+                              <h4>Framing</h4>
+                              <p><span>12 April 19</span>  <span>By <em>James C.</em></span></p>
+                            </div>
+                            <div class="list-rt">
+                              <a href="#" class="apply-btn">Complete</a>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="list-blk">
+                          <div class="logo">
+                            <i><img src="images/job-2.png"></i>
+                          </div>
+                          <div class="list-detail">
+                            <div class="list-lt">
+                              <h2><strong>Looking for Carpenter</strong>   <span>San Jose</span></h2>
+                              <h4>Framing</h4>
+                              <p><span>12 April 19</span>  <span>By <em>James C.</em></span></p>
+                            </div>
+                            <div class="list-rt">
+                              <a href="#" class="apply-btn">Complete</a>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="list-blk">
+                          <div class="logo">
+                            <i><img src="images/job-3.png"></i>
+                          </div>
+                          <div class="list-detail">
+                            <div class="list-lt">
+                              <h2><strong>Looking for Carpenter</strong><span>Austin</span></h2>
+                              <h4>Framing</h4>
+                              <p><span>12 April 19</span><span>By <em>James C.</em></span></p>
+                            </div>
+                            <div class="list-rt">
+                              <a href="#" class="apply-btn">Complete</a>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="list-blk">
+                          <div class="logo">
+                            <i><img src="images/job-4.png"></i>
+                          </div>
+                          <div class="list-detail">
+                            <div class="list-lt">
+                              <h2><strong>Looking for Carpenter</strong>   <span>Chicago</span></h2>
+                              <h4>Framing</h4>
+                              <p><span>12 April 19</span>  <span>By <em>James C.</em></span></p>
+                            </div>
+                            <div class="list-rt">
+                              <a href="#" class="apply-btn">Complete</a>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="list-blk">
+                          <div class="logo">
+                            <i><img src="images/job-5.png"></i>
+                          </div>
+                          <div class="list-detail">
+                            <div class="list-lt">
+                              <h2><strong>Looking for Carpenter</strong>   <span>New York</span></h2>
+                              <h4>Framing</h4>
+                              <p><span>12 April 19</span>  <span>By <em>James C.</em></span></p>
+                            </div>
+                            <div class="list-rt">
+                              <a href="#" class="apply-btn">Complete</a>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="list-blk">
+                          <div class="logo">
+                            <i><img src="images/job-6.png"></i>
+                          </div>
+                          <div class="list-detail">
+                            <div class="list-lt">
+                              <h2><strong>Looking for Carpenter</strong>   <span>Los Angles</span></h2>
+                              <h4>Framing</h4>
+                              <p><span>12 April 19</span>  <span>By <em>James C.</em></span></p>
+                            </div>
+                            <div class="list-rt">
+                              <a href="#" class="apply-btn">Complete</a>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="list-blk">
+                          <div class="logo">
+                            <i><img src="images/job-7.png"></i>
+                          </div>
+                          <div class="list-detail">
+                            <div class="list-lt">
+                              <h2><strong>Looking for Carpenter</strong>   <span>Greter Newyork</span></h2>
+                              <h4>Framing</h4>
+                              <p><span>12 April 19</span>  <span>By <em>James C.</em></span></p>
+                            </div>
+                            <div class="list-rt">
+                              <a href="#" class="apply-btn">Complete</a>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="list-blk">
+                          <div class="logo">
+                            <i><img src="images/job-8.png"></i>
+                          </div>
+                          <div class="list-detail">
+                            <div class="list-lt">
+                              <h2><strong>Looking for Carpenter</strong>   <span>Greter Newyork</span></h2>
+                              <h4>Framing</h4>
+                              <p><span>12 April 19</span>  <span>By <em>James C.</em></span></p>
+                            </div>
+                            <div class="list-rt">
+                              <a href="#" class="apply-btn">Complete</a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="tab-pane fade" id="v-pills-promotedjobs" role="tabpanel" aria-labelledby="v-pills-promotedjobs-tab">
+                    <div class="right-header">
+                      <div class="">
+                        <a href="#" class="apply-btn">Post Jobs</a>
+                      </div>
+                      <div class="d-flex">
+                        <div class="apply-cald">
+                          <label>Form Date:</label>
+                          <input type="text" class="form-control" value="MM/DD/YYYY">
+                          <span class="icon-calendar-ic"></span>
+                        </div>
+                        <div class="apply-cald">
+                          <label>To Date:</label>
+                          <input type="text" class="form-control" value="MM/DD/YYYY">
+                          <span class="icon-calendar-ic"></span>
+                        </div>
+                        <div>
+                            <a href="#" class="cmn-btn">Save</a>
+                            <a href="#" class="cmn-btn cnx-btn">cancel</a>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="job-list right-inner">
+                      <h2 class="heading"><strong>08</strong> Jobs & Vacancies</h2>
+                      <div class="listing-sec">
+                        <div class="list-blk">
+                          <div class="logo">
+                            <i><img src="images/job-1.png"></i>
+                          </div>
+                          <div class="list-detail">
+                            <div class="list-lt">
+                              <h2><strong>Looking for Carpenter</strong>   <span>Greater New York</span></h2>
+                              <h4>Framing</h4>
+                              <p><span>12 April 19</span>  <span>By <em>James C.</em></span></p>
+                            </div>
+                            <div class="list-rt post-progress">
+                              <span class="text-apply">Apply (50)</span>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="list-blk">
+                          <div class="logo">
+                            <i><img src="images/job-2.png"></i>
+                          </div>
+                          <div class="list-detail">
+                            <div class="list-lt">
+                              <h2><strong>Looking for Carpenter</strong>   <span>San Jose</span></h2>
+                              <h4>Framing</h4>
+                              <p><span>12 April 19</span>  <span>By <em>James C.</em></span></p>
+                            </div>
+                            <div class="list-rt post-progress">
+                              <span class="text-apply">Apply (50)</span>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="list-blk">
+                          <div class="logo">
+                            <i><img src="images/job-3.png"></i>
+                          </div>
+                          <div class="list-detail">
+                            <div class="list-lt">
+                              <h2><strong>Looking for Carpenter</strong><span>Austin</span></h2>
+                              <h4>Framing</h4>
+                              <p><span>12 April 19</span><span>By <em>James C.</em></span></p>
+                            </div>
+                            <div class="list-rt post-progress">
+                              <span class="text-apply">Apply (50)</span>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="list-blk">
+                          <div class="logo">
+                            <i><img src="images/job-4.png"></i>
+                          </div>
+                          <div class="list-detail">
+                            <div class="list-lt">
+                              <h2><strong>Looking for Carpenter</strong>   <span>Chicago</span></h2>
+                              <h4>Framing</h4>
+                              <p><span>12 April 19</span>  <span>By <em>James C.</em></span></p>
+                            </div>
+                            <div class="list-rt post-progress">
+                              <span class="text-apply">Apply (50)</span>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="list-blk">
+                          <div class="logo">
+                            <i><img src="images/job-5.png"></i>
+                          </div>
+                          <div class="list-detail">
+                            <div class="list-lt">
+                              <h2><strong>Looking for Carpenter</strong>   <span>New York</span></h2>
+                              <h4>Framing</h4>
+                              <p><span>12 April 19</span>  <span>By <em>James C.</em></span></p>
+                            </div>
+                            <div class="list-rt post-progress">
+                              <span class="text-apply">Apply (50)</span>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="list-blk">
+                          <div class="logo">
+                            <i><img src="images/job-6.png"></i>
+                          </div>
+                          <div class="list-detail">
+                            <div class="list-lt">
+                              <h2><strong>Looking for Carpenter</strong>   <span>Los Angles</span></h2>
+                              <h4>Framing</h4>
+                              <p><span>12 April 19</span>  <span>By <em>James C.</em></span></p>
+                            </div>
+                            <div class="list-rt post-progress">
+                              <span class="text-apply">Apply (50)</span>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="list-blk">
+                          <div class="logo">
+                            <i><img src="images/job-7.png"></i>
+                          </div>
+                          <div class="list-detail">
+                            <div class="list-lt">
+                              <h2><strong>Looking for Carpenter</strong>   <span>Greter Newyork</span></h2>
+                              <h4>Framing</h4>
+                              <p><span>12 April 19</span>  <span>By <em>James C.</em></span></p>
+                            </div>
+                            <div class="list-rt post-progress">
+                              <span class="text-apply">Apply (50)</span>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="list-blk">
+                          <div class="logo">
+                            <i><img src="images/job-8.png"></i>
+                          </div>
+                          <div class="list-detail">
+                            <div class="list-lt">
+                              <h2><strong>Looking for Carpenter</strong>   <span>Greter Newyork</span></h2>
+                              <h4>Framing</h4>
+                              <p><span>12 April 19</span>  <span>By <em>James C.</em></span></p>
+                            </div>
+                            <div class="list-rt post-progress">
+                              <span class="text-apply">Apply (50)</span>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </main>
+    </div>
+    <!-- Footer Start -->
+    <footer id="footer">
+      <div class="container">
+        <div class="footer-link">
+          <div class="row">
+            <div class="col-lg-2">
+              <ul>
+                <li class="title">Company</li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Terms & Conditions</a></li>
+                <li><a href="#">Privacy Policy</a></li>
+              </ul>
+            </div>
+            <div class="col-lg-2">
+              <ul>
+                <li class="title">Support</li>
+                <li><a href="#">Help Center</a></li>
+                <li><a href="#">Contact Us</a></li>
+              </ul>
+            </div>
+            <div class="col-lg-2">
+              <ul>
+                <li class="title">Business</li>
+                <li><a href="#">Advertise with Us</a></li>
+              </ul>
+            </div>
+            <div class="col-lg-2">
+              <ul>
+                <li class="title">BluCollr Employee</li>
+                <li><a href="#">How it Works?</a></li>
+                <li><a href="#">Employee Testimonials</a></li>
+              </ul>
+            </div>
+            <div class="col-lg-2">
+              <ul>
+                <li class="title">BluCollr Employer</li>
+                <li><a href="#">How it Works?</a></li>
+                <li><a href="#">Employer Testimonials</a></li>
+              </ul>
+            </div>
+            <div class="col-lg-2">
+              <ul>
+                <li class="title">Get Social</li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Terms & Conditions</a></li>
+                <li><a href="#">Privacy Policy</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="copyright text-center"> <img src="images/black-logo.png" alt="">
+          <p>© 2019 Copyright Blucollr.com. All Rights Reserved.</p>
+        </div>
+      </div>
+    </footer>
+    <!-- Footer End --> 
+  </div>
+  <!-- JS Start --> 
+  <script src="js/jquery.min.js"></script> 
+  <script src="plugins/bootstrap/js/popper.min.js"></script> 
+  <script src="plugins/bootstrap/js/bootstrap.min.js"></script> 
+  <script src="plugins/font-awesome/js/all.min.js"></script> 
+  <script src="plugins/owl-carousel/js/owl.carousel.js"></script> 
+  <script src="plugins/select2/js/select2.full.min.js"></script> 
+  <script src="js/custom-designer.js"></script> 
+  <script src="js/custom-developer.js"></script> 
+  <!-- JS end -->
+
+</body>
+</html>
