@@ -1,0 +1,551 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>BluCollr</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="images/favicon.ico" type="image/x-icon" rel="icon" />
+<link rel="stylesheet" href="plugins/bootstrap/css/bootstrap.min.css">
+<link rel="stylesheet" href="plugins/font-awesome/css/all.css">
+<link href="/your-path-to-fontawesome/css/all.css" rel="stylesheet">
+<!--load all styles -->
+<link rel="stylesheet" href="plugins/owl-carousel/css/owl.carousel.min.css">
+<link rel="stylesheet" href="plugins/select2/css/select2.min.css">
+<link rel="stylesheet" href="css/customscrollbar.css">
+<link href="css/style.css" rel="stylesheet" type="text/css">
+<link href="css/custom-designer.css" rel="stylesheet" type="text/css">
+<link href="css/custom-developer.css" rel="stylesheet" type="text/css">
+<link href="css/media.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+<div id="main-container" class="main-container">
+  <div id="inner-container" class="inner-container">
+<!-- Header Start -->
+<header id="header" class="fixed-top after-login">
+  <div class="container">
+    <div class="head-blk">
+      <div class="header-top">
+        <div class="row">
+          <div class="col-lg-2">
+            <div class="head-logo"> <a href="#"><img src="images/logo-sm.png"></a> </div>
+          </div>
+          <div class="col-lg-7">
+            <div class="srch-area"> <span class="icon-search"></span>
+              <input type="text" placeholder="Search">
+            </div>
+          </div>
+          <div class="col-lg-3 PL0">
+            <div class="hdr-rt">
+            	<div class="icon-row">
+                	<a href="#"><span class="icon-user"></span></a>
+                    <a href="#"><span class="icon-message">
+                    	<small>3</small>
+                    </span></a>
+                    <a href="#"><span class="icon-bell">
+                    	<small>4</small>
+                    </span></a>
+                </div>
+                <div class="prof-dropdown">
+                	<a href="#"><img src="images/testimonial-img/pro-pic1.jpg"></a>
+                </div>
+            </div>
+          </div>
+        </div>
+        <div class="inner-nav-sec">
+          <nav class="inner-nav">
+            <ul>
+              <li><a href="#">Dashboard</a></li>
+              <li><a href="#">My Jobs</a></li>
+              <li><a href="#">My Connections </a></li>
+              <li  class="active"><a href="profileupdate.html">My Profile </a></li>
+              <li><a href="#"> Transactions </a></li>
+              <li><a href="#"> Newsfeed </a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+</header>
+<!-- /header End-->
+
+<main class="middle-sec">
+  <div class="prof-sec">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-3 pr-0 left-section">
+          <div class="user-det"> 
+            <i><img src="images/testimonial-img/pro-pic1.jpg"></i>
+            <h2>Chris Casper</h2>
+            <h6>chris@blucollr.com - Bartender</h6>
+            <p><span class="icon-clock"></span>Member Since, April 18, 2016</p>
+             <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+                <a class="cmn-tab active" id="v-pills-home-tab" data-toggle="pill" href="#v-pills-home" role="tab" aria-controls="v-pills-home" aria-selected="true">Basic Information</a>
+                <a class="cmn-tab" id="v-pills-profile-tab" data-toggle="pill" href="#v-pills-profile" role="tab" aria-controls="v-pills-profile" aria-selected="false">Portfolio Update</a>
+                <a class="cmn-tab" id="v-pills-messages-tab" data-toggle="pill" href="#v-pills-messages" role="tab" aria-controls="v-pills-messages" aria-selected="false">Change password</a>
+                <!-- <a class="cmn-tab" id="v-pills-settings-tab" data-toggle="pill" href="#v-pills-settings" role="tab" aria-controls="v-pills-settings" aria-selected="false">Public Profile</a> -->
+              </div>
+          </div>
+        </div>
+        <div class="col-lg-9 pl-0 right-section">
+          <div class="prof-inner-det">
+            <div class="tab-content" id="v-pills-tabContent">
+              <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab">
+                <h2 class="heading">Basic Information</h2>
+                <div class="basic-info">
+                  <form class="cmn-form">
+                    <div class="form-row">
+                      <div class="row">
+                        <div class="col-lg-6">
+                          <div class="form-group">
+                            <label>Name</label>
+                            <input type="text" class="form-control" value="Chris Casper">
+                          </div>
+                        </div>
+                        <div class="col-lg-6">
+                          <div class="form-group">
+                            <label>Gender</label>
+                            <select data-tags="true" data-allow-clear="true">
+                              <option value="CI">Male</option>
+                              <option value="AL">Female</option>
+                              <option value="AL">Do Not Disclose</option>
+                            </select>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="form-row">
+                      <div class="row">
+                        <div class="col-lg-6">
+                          <div class="form-group">
+                            <label>Email Address</label>
+                            <input type="text" class="form-control" value="chris@blucollr.com">
+                          </div>
+                        </div>
+                        <div class="col-lg-6">
+                          <div class="form-group">
+                            <label>City</label>
+                            <select data-tags="true" data-placeholder="City" data-allow-clear="true" class="city-list">
+                              <option value="CI">Austin</option>
+                              <option value="AL">Austin</option>
+                            </select>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="form-row">
+                      <div class="row">
+                        <div class="col-lg-6">
+                          <div class="form-group">
+                            <label>Phone Number</label>
+                            <input type="text" class="form-control" value="+1-4584296341">
+                          </div>
+                        </div>
+                        <div class="col-lg-6">
+                          <div class="form-group">
+                            <label>Address</label>
+                            <input type="text" class="form-control" value="71 street, Austin.">
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="form-row">
+                      <div class="row">
+                        <div class="col-lg-6">
+                          <div class="form-group calender">
+                            <label>Date Of Birth</label>
+                            <input type="text" class="form-control" value="MM/DD/YYYY">
+                            <span class="icon-calendar-ic"></span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="form-row btn-row">
+                      <div class="row">
+                        <div class="col-lg-12">
+                          <div class="form-group">
+                              <a href="#" class="cmn-btn">Save</a>
+                                <a href="#" class="cmn-btn cnx-btn">cancel</a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </form>
+                </div>
+              </div>
+              <div class="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab">
+                <h2 class="heading">Portfolio Update</h2>
+                <div class="basic-info">
+                  <form class="cmn-form">
+                    <div class="form-row">
+                      <div class="row">
+                        <div class="col-lg-6">
+                          <div class="form-group">
+                            <label>Company Name</label>
+                            <input type="text" class="form-control" value="Carpenty Company">
+                          </div>
+                        </div>
+                        <div class="col-lg-6">
+                          <div class="form-group">
+                            <label>Tagline</label>
+                            <input type="text" class="form-control" value="Creativity is an art">
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="form-row">
+                      <div class="row">
+                        <div class="col-lg-12">
+                          <div class="form-group">
+                            <label>Description</label>
+                            <textarea class="form-control cmn-txtarea" rows="4"></textarea>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="form-row">
+                      <div class="row">
+                        <div class="col-lg-12">
+                          <div class="form-group">
+                            <label>Portfolio Images</label>
+                            <div class="portfolio-img-blk">
+                              <ul>
+                                <li>
+                                  <i><img src="images/work-img1.jpg"></i>
+                                </li>
+                                <li>
+                                  <i><img src="images/work-img2.jpg"></i>
+                                </li>
+                                <li>
+                                  <i><img src="images/work-img3.jpg"></i>
+                                </li>
+                                <li>
+                                  <i><img src="images/work-img1.jpg"></i>
+                                </li>
+                                <li>
+                                  <i><img src="images/work-img2.jpg"></i>
+                                </li>
+                                <li>
+                                  <i><img src="images/work-img3.jpg"></i>
+                                </li>
+                                <li>
+                                  <i><img src="images/work-img1.jpg"></i>
+                                </li>                                
+                                <li>
+                                  <div class="input-file"><a href="#"><input type="file" class="form-control-file" id="exampleFormControlFile1"><span>+</span></a></div>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                        </div>                        
+                      </div>
+                    </div>
+                    <div class="form-row">
+                      <div class="row">
+                        <div class="col-lg-12">
+                          <div class="comment-sec">
+                            <div class="cmnt-hdr-sec">
+                              <span>Referrals (8)</span>
+                            </div>
+                            <div class="comment-row mCustomScrollbar">
+                              <ul>
+                                <li>
+                                  <div class="comment-btm-sec">
+                                    <div class="comment-img-sec">
+                                      <img src="images/testimonial-img/pro-pic1.jpg">
+                                    </div>
+                                    <div class="comment-data-sec">
+                                      <h3>Alex Smith</h3>
+                                      <em>12 Jan 2019</em>
+                                      <span>Category 1</span>
+                                      <i><img src="images/star-rating.png"></i>                                
+                                      <p>The service was excellent and I am overwhelmed by the output! Lorem ipsum dummy text.</p>
+                                    </div>
+                                  </div>
+                                </li>
+                                <li>
+                                  <div class="comment-btm-sec">
+                                    <div class="comment-img-sec">
+                                      <img src="images/testimonial-img/pro-pic5.jpg">
+                                    </div>
+                                    <div class="comment-data-sec">
+                                      <h3>Alex Smith</h3>
+                                      <em>12 Jan 2019</em>
+                                      <span>Category 1</span>
+                                      <i><img src="images/star-rating.png"></i>                                
+                                      <p>The service was excellent and I am overwhelmed by the output! Lorem ipsum dummy text.</p>
+                                    </div>
+                                  </div>
+                                </li>
+                                <li>
+                                  <div class="comment-btm-sec">
+                                    <div class="comment-img-sec">
+                                      <img src="images/testimonial-img/pro-pic2.jpg">
+                                    </div>
+                                    <div class="comment-data-sec">
+                                      <h3>Alex Smith</h3>
+                                      <em>12 Jan 2019</em>
+                                      <span>Category 1</span>
+                                      <i><img src="images/star-rating.png"></i>                                
+                                      <p>The service was excellent and I am overwhelmed by the output! Lorem ipsum dummy text.</p>
+                                    </div>
+                                  </div>
+                                </li>
+                                <li>
+                                  <div class="comment-btm-sec">
+                                    <div class="comment-img-sec">
+                                      <img src="images/testimonial-img/pro-pic3.jpg">
+                                    </div>
+                                    <div class="comment-data-sec">
+                                      <h3>Alex Smith</h3>
+                                      <em>12 Jan 2019</em>
+                                      <span>Category 1</span>
+                                      <i><img src="images/star-rating.png"></i>                                
+                                      <p>The service was excellent and I am overwhelmed by the output! Lorem ipsum dummy text.</p>
+                                    </div>
+                                  </div>
+                                </li>
+                                <li>
+                                  <div class="comment-btm-sec">
+                                    <div class="comment-img-sec">
+                                      <img src="images/testimonial-img/pro-pic4.jpg">
+                                    </div>
+                                    <div class="comment-data-sec">
+                                      <h3>Alex Smith</h3>
+                                      <em>12 Jan 2019</em>
+                                      <span>Category 1</span>
+                                      <i><img src="images/star-rating.png"></i>                                
+                                      <p>The service was excellent and I am overwhelmed by the output! Lorem ipsum dummy text.</p>
+                                    </div>
+                                  </div>
+                                </li>  
+                              </ul>  
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>    
+                    <div class="form-row btn-row">
+                      <div class="row">
+                        <div class="col-lg-12">
+                          <div class="form-group">
+                              <a href="#" class="cmn-btn">Save</a>
+                                <a href="#" class="cmn-btn cnx-btn">cancel</a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </form>
+                </div>
+              </div>
+              <div class="tab-pane fade" id="v-pills-messages" role="tabpanel" aria-labelledby="v-pills-messages-tab">
+                <h2 class="heading">Change password</h2>
+                <div class="basic-info">
+                  <form class="cmn-form">
+                    <div class="form-row">
+                      <div class="row">
+                        <div class="col-lg-6">
+                          <div class="form-group">
+                            <label>Old Password</label>
+                            <input type="password" class="form-control">
+                          </div>
+                        </div>                        
+                      </div>
+                    </div>
+                    <div class="form-row">
+                      <div class="row">
+                        <div class="col-lg-6">
+                          <div class="form-group">
+                            <label>New Password</label>
+                            <input type="password" class="form-control">
+                          </div>
+                        </div>                        
+                      </div>
+                    </div>
+                    <div class="form-row">
+                      <div class="row">
+                        <div class="col-lg-6">
+                          <div class="form-group">
+                            <label>Confirm Password</label>
+                            <input type="password" class="form-control">
+                          </div>
+                        </div>                        
+                      </div>
+                    </div>                    
+                    <div class="form-row btn-row">
+                      <div class="row">
+                        <div class="col-lg-12">
+                          <div class="form-group">
+                              <a href="#" class="cmn-btn">Save</a>
+                                <a href="#" class="cmn-btn cnx-btn">cancel</a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </form>
+                </div>
+              </div>
+              <!-- <div class="tab-pane fade" id="v-pills-settings" role="tabpanel" aria-labelledby="v-pills-settings-tab">
+                <h2 class="heading">Settings</h2>
+                <div class="basic-info">
+                  <form class="cmn-form">
+                    <div class="form-row">
+                      <div class="row">
+                        <div class="col-lg-6">
+                          <div class="form-group">
+                            <label>Name</label>
+                            <input type="text" class="form-control" value="Chris Casper">
+                          </div>
+                        </div>
+                        <div class="col-lg-6">
+                          <div class="form-group">
+                            <label>Gender</label>
+                            <select data-tags="true" data-placeholder="City" data-allow-clear="true" class="city-list">
+                              <option value="CI">Male</option>
+                              <option value="AL">Female</option>
+                            </select>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="form-row">
+                      <div class="row">
+                        <div class="col-lg-6">
+                          <div class="form-group">
+                            <label>Email Address</label>
+                            <input type="text" class="form-control" value="chris@blucollr.com">
+                          </div>
+                        </div>
+                        <div class="col-lg-6">
+                          <div class="form-group">
+                            <label>City</label>
+                            <select data-tags="true" data-placeholder="City" data-allow-clear="true" class="city-list">
+                              <option value="CI">Austin</option>
+                              <option value="AL">Austin</option>
+                            </select>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="form-row">
+                      <div class="row">
+                        <div class="col-lg-6">
+                          <div class="form-group">
+                            <label>Phone Number</label>
+                            <input type="text" class="form-control" value="+1-4584296341">
+                          </div>
+                        </div>
+                        <div class="col-lg-6">
+                          <div class="form-group">
+                            <label>Address</label>
+                            <input type="text" class="form-control" value="71 street, Austin.">
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="form-row">
+                      <div class="row">
+                        <div class="col-lg-6">
+                          <div class="form-group calender">
+                            <label>Date Of Birth</label>
+                            <input type="text" class="form-control" value="MM/DD/YYYY">
+                            <span class="icon-calendar-ic"></span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="form-row btn-row">
+                      <div class="row">
+                        <div class="col-lg-12">
+                          <div class="form-group">
+                              <a href="#" class="cmn-btn">Save</a>
+                                <a href="#" class="cmn-btn cnx-btn">cancel</a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </form>
+                </div>
+              </div> -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</main>
+</div>
+<!-- Footer Start -->
+<footer id="footer">
+  <div class="container">
+    <div class="footer-link">
+      <div class="row">
+        <div class="col-lg-2">
+          <ul>
+            <li class="title">Company</li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Terms & Conditions</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+          </ul>
+        </div>
+        <div class="col-lg-2">
+          <ul>
+            <li class="title">Support</li>
+            <li><a href="#">Help Center</a></li>
+            <li><a href="#">Contact Us</a></li>
+          </ul>
+        </div>
+        <div class="col-lg-2">
+          <ul>
+            <li class="title">Business</li>
+            <li><a href="#">Advertise with Us</a></li>
+          </ul>
+        </div>
+        <div class="col-lg-2">
+          <ul>
+            <li class="title">BluCollr Employee</li>
+            <li><a href="#">How it Works?</a></li>
+            <li><a href="#">Employee Testimonials</a></li>
+          </ul>
+        </div>
+        <div class="col-lg-2">
+          <ul>
+            <li class="title">BluCollr Employer</li>
+            <li><a href="#">How it Works?</a></li>
+            <li><a href="#">Employer Testimonials</a></li>
+          </ul>
+        </div>
+        <div class="col-lg-2">
+          <ul>
+            <li class="title">Get Social</li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Terms & Conditions</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="copyright text-center"> <img src="images/black-logo.png" alt="">
+      <p>© 2019 Copyright Blucollr.com. All Rights Reserved.</p>
+    </div>
+  </div>
+</footer>
+<!-- Footer End --> 
+</div>
+
+<!-- JS Start --> 
+<script src="js/jquery.min.js"></script> 
+<script src="plugins/bootstrap/js/popper.min.js"></script> 
+<script src="plugins/bootstrap/js/bootstrap.min.js"></script> 
+<script src="plugins/font-awesome/js/all.min.js"></script> 
+<script src="plugins/owl-carousel/js/owl.carousel.js"></script> 
+<script src="plugins/select2/js/select2.full.min.js"></script>
+<script src="js/customscrollbar.min.js"></script>  
+<script src="js/custom-designer.js"></script> 
+<script src="js/custom-developer.js"></script> 
+<!-- JS end -->
+
+</body>
+</html>
